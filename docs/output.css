@@ -468,17 +468,131 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-sepia:  ;
 }
 
+.flex {
+  display: flex;
+}
+
+.grid {
+  display: grid;
+}
+
 .h-screen {
   height: 100vh;
+}
+
+.h-10 {
+  height: 2.5rem;
+}
+
+.h-16 {
+  height: 4rem;
+}
+
+.h-56 {
+  height: 14rem;
+}
+
+.h-96 {
+  height: 24rem;
+}
+
+.h-12 {
+  height: 3rem;
 }
 
 .w-screen {
   width: 100vw;
 }
 
-.bg-\[\#FF7A7A\] {
+.w-full {
+  width: 100%;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.place-content-center {
+  place-content: center;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+.rounded-xl {
+  border-radius: 0.75rem;
+}
+
+.border-2 {
+  border-width: 2px;
+}
+
+.border-\[1px\] {
+  border-width: 1px;
+}
+
+.border-\[\#3D3B48\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(61 59 72 / var(--tw-border-opacity));
+}
+
+.border-\[\#B8B5D3\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(184 181 211 / var(--tw-border-opacity));
+}
+
+.bg-\[\#5F54A4\] {
   --tw-bg-opacity: 1;
-  background-color: rgb(255 122 122 / var(--tw-bg-opacity));
+  background-color: rgb(95 84 164 / var(--tw-bg-opacity));
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#38CB8B\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(56 203 139 / var(--tw-bg-opacity));
+}
+
+.bg-intro-mobile {
+  background-image: url('../images/bg-intro-mobile.png');
+}
+
+.bg-center {
+  background-position: center;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+
+.pl-4 {
+  padding-left: 1rem;
+}
+
+.pl-5 {
+  padding-left: 1.25rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .text-3xl {
@@ -486,17 +600,88 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 2.25rem;
 }
 
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.text-\[16px\] {
+  font-size: 16px;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
 
-.underline {
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
+.font-semibold {
+  font-weight: 600;
 }
 
-.opacity-50 {
-  opacity: 0.5;
+.font-normal {
+  font-weight: 400;
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-\[\#B8B5D3\] {
+  --tw-text-opacity: 1;
+  color: rgb(184 181 211 / var(--tw-text-opacity));
+}
+
+.text-\[white\] {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-\[\#fedfdf\] {
+  --tw-text-opacity: 1;
+  color: rgb(254 223 223 / var(--tw-text-opacity));
+}
+
+.text-\[\#FF7A7A\] {
+  --tw-text-opacity: 1;
+  color: rgb(255 122 122 / var(--tw-text-opacity));
+}
+
+.outline-none {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.placeholder\:font-normal::-moz-placeholder {
+  font-weight: 400;
+}
+
+.placeholder\:font-normal:-ms-input-placeholder {
+  font-weight: 400;
+}
+
+.placeholder\:font-normal::placeholder {
+  font-weight: 400;
+}
+
+.placeholder\:font-semibold::-moz-placeholder {
+  font-weight: 600;
+}
+
+.placeholder\:font-semibold:-ms-input-placeholder {
+  font-weight: 600;
+}
+
+.placeholder\:font-semibold::placeholder {
+  font-weight: 600;
 }
 
 .before\:absolute::before {
@@ -514,6 +699,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   left: 0px;
 }
 
+.before\:-z-10::before {
+  content: var(--tw-content);
+  z-index: -10;
+}
+
 .before\:min-h-screen::before {
   content: var(--tw-content);
   min-height: 100vh;
@@ -524,31 +714,15 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 100%;
 }
 
-.before\:w-10::before {
-  content: var(--tw-content);
-  width: 2.5rem;
-}
-
 .before\:content-center::before {
   content: var(--tw-content);
   align-content: center;
 }
 
-.before\:bg-black::before {
+.before\:bg-\[\#FF7A7A\]::before {
   content: var(--tw-content);
   --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
-}
-
-.before\:bg-\[\#000\]::before {
-  content: var(--tw-content);
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
-}
-
-.before\:bg-\[url\(\'\.\/images\/bg-intro-mobile\.png\'\)\]::before {
-  content: var(--tw-content);
-  background-image: url('./images/bg-intro-mobile.png');
+  background-color: rgb(255 122 122 / var(--tw-bg-opacity));
 }
 
 .before\:opacity-50::before {
@@ -556,17 +730,17 @@ Ensure the default browser behavior of the `hidden` attribute.
   opacity: 0.5;
 }
 
-.before\:content-none::before {
-  --tw-content: none;
+.before\:opacity-70::before {
   content: var(--tw-content);
+  opacity: 0.7;
 }
 
-.before\:content-\[GAAAAAAA\]::before {
-  --tw-content: GAAAAAAA;
+.before\:opacity-30::before {
   content: var(--tw-content);
+  opacity: 0.3;
 }
 
-.before\:content-\[\'GAAAAAAA\'\]::before {
-  --tw-content: 'GAAAAAAA';
+.before\:opacity-95::before {
   content: var(--tw-content);
+  opacity: 0.95;
 }
