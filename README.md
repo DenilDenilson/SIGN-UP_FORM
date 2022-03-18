@@ -18,8 +18,8 @@ A validation of a complet form with animation in JS and HTML, and all model was 
 ### Desktop
 ![](https://i.imgur.com/NIEZVZW.png)
 ### Links
-- Solution URL: [https://github.com/DenilDenilson/NB_FormSimple](https://github.com/DenilDenilson/NB_FormSimple "Repositorio")
-- Live site URL: [https://denildenilson.github.io/NB_FormSimple/](https://denildenilson.github.io/NB_FormSimple/ "Live site URL")
+- Solution URL: [https://github.com/DenilDenilson/SIGN-UP_FORM](https://github.com/DenilDenilson/SIGN-UP_FORM "Repositorio")
+- Live site URL: [https://denildenilson.github.io/SIGN-UP_FORM/](https://denildenilson.github.io/SIGN-UP_FORM/ "Live site URL")
 
 
 # My process
