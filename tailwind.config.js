@@ -6,6 +6,10 @@ module.exports = {
     "./**/*.{html, js}",
   ],
   theme: {
+    screen: {
+      'xl': '1440px',
+    },
+
     extend: {
       fontFamily: {
         'sans': ['Poppins', ...defaultTheme.fontFamily.sans],
